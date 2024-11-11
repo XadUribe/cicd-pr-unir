@@ -20,7 +20,7 @@ def sort_list(items, ascending=True):
 def remove_duplicates_from_list(items):
     return list(set(items))
 
-
+print("Hola UNIR!")
 if __name__ == "__main__":
     filename = DEFAULT_FILENAME
     remove_duplicates = DEFAULT_DUPLICATES
@@ -47,3 +47,5 @@ if __name__ == "__main__":
         word_list = remove_duplicates_from_list(word_list)
 
     print(sort_list(word_list))
+
+
